@@ -2,7 +2,7 @@ version: 2
 
 jobs:
  "environmentSetup":
-  working_directory: ~/tmp
+ working_directory: ~/tmp
   docker:
     - image: circleci/node:6.11.3
    steps:
