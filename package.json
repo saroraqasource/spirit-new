@@ -12,7 +12,6 @@
     "executors": "^0.0.6",
     "file-system": "^2.2.2",
     "fs": "0.0.1-security",
-    "geckodriver": "^1.10.0",
     "good-mocha-html-reporter": "^2.0.1",
     "mocha": "^4.1.0",
     "nodemailer": "^4.6.8",
