@@ -4,7 +4,7 @@ jobs:
  "environmentSetup":
   working_directory: ~/tmp
    docker:
-    - image: circleci/node:7.10
+    - image: circleci/node:6.11.3
    steps:
     - checkout
 	- run : echo "test pass"
