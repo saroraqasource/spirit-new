@@ -8,7 +8,7 @@ jobs:
    steps:
     - checkout
     - run : npm install
-    - run : npm tests
+    - run : npm test
     - run : echo "NPM installed successfully"
    
 workflows:
