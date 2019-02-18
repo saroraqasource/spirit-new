@@ -7,7 +7,6 @@ jobs:
     - image: circleci/node:6.11.3
    steps:
     - checkout
-    - run : echo "test pass"
     - restore_cache:
      keys:
      - v1-dependencies-{{ checksum "package.json" }}
