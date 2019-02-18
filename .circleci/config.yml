@@ -9,7 +9,6 @@ jobs:
    steps:
     - checkout
     - run : npm install
-    - run : apt-get install default-jre
     - run : npm test
     - run : echo "NPM installed successfully"
    
