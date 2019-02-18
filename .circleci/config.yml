@@ -4,11 +4,11 @@ jobs:
   "environmentSetup":
    working_directory: ~/tmp
    docker:
-    - image: circleci/node:7.11
+    - image: circleci/node:6.11.3
    steps:
     - checkout
     - run : npm install
-    - run : npm tests
+    - run : npm test
     - run : echo "NPM installed successfully"
    
 workflows:
